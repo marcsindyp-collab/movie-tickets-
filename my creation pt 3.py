@@ -5,7 +5,7 @@ def buy_tickets(remaining_tickets):
     """Prompt the user for tickets and return tickets purchased."""
     while True:
         try:
-            tickets_requested = int(input("How many tickets do you need (1-4)? "))
+            tickets_requested = int(input("Enter your desired amount of tickets you want to buy (1-4)? "))
             
             # Check if request is valid
             if tickets_requested < 1 or tickets_requested > 4:
